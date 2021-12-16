@@ -49,7 +49,7 @@ function gotposes(results){
 if (results.length>0) {
     console.log(results);
     leftwrist_x= results[0].pose.leftWrist.x;
-    leftwrist_y= results[0].pose.leftwrist.y;
+    leftwrist_y= results[0].pose.leftWrist.y;
     console.log("left wrist x = "+leftwrist_x);
     console.log("left wrist y = "+leftwrist_y);
 
